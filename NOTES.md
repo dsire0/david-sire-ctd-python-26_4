@@ -1,7 +1,7 @@
-# Pedagogical Notes & Learner Preferences
+# Pedagogical notes and learner preferences
 
-## Learner Preferences & Workflows
+## Learner preferences and workflows
 
-### Side Lessons (`.side_lessons/`)
-- `.side_lessons/` is a dedicated freeform tracker for tangent questions or side topics that arise during main lessons (e.g., git commands, CLI tooling, environment details).
-- These topics can either be parked for later or addressed briefly on the spot so focus on the primary lesson can resume without derailing the main curriculum or overloading working memory.
+### Side lessons (`.side_lessons/`)
+- `.side_lessons/` tracks tangent questions and side topics that come up during lessons (such as git commands, CLI tooling, and environment details).
+- Park these topics for later or cover them briefly on the spot to keep the main lesson on track.
