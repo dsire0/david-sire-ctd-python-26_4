@@ -1,6 +1,8 @@
-# Reference Guide & Shortcuts
+# Homework for Intro to Python with Code the Dream
 
-## Editor Shortcuts (VS Code / Antigravity IDE)
+## Reference Guide & Shortcuts
+
+### Editor Shortcuts (VS Code / Antigravity IDE)
 
 | Action | Shortcut (Windows) | Description |
 | :--- | :--- | :--- |
