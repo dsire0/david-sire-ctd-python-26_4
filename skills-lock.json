@@ -7,6 +7,12 @@
       "skillPath": "skills/engineering/ask-matt/SKILL.md",
       "computedHash": "2cfee0bfa1d618b47aa7e32eb369c076fb3934f0654de2efd63edfde21c67a6f"
     },
+    "avoid-ai-writing": {
+      "source": "conorbronsdon/avoid-ai-writing",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "a4f9dcd503b2713bb1bc26cd6e0be45b35525f782a750af431a9946173324792"
+    },
     "code-review": {
       "source": "mattpocock/skills",
       "sourceType": "github",
