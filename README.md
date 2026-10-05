@@ -1,5 +1,3 @@
-# Homework for Intro to Python with Code the Dream
-
 ## Reference Guide & Shortcuts
 
 ### Editor Shortcuts (VS Code / Antigravity IDE)
