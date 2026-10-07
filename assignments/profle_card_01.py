@@ -85,7 +85,7 @@ quantity = 12
 # calculation
 total = price * quantity
 
-receipt =f"""
+receipt = f"""
 ------------------
 Item:     {item}
 Price:    ${price:.2f}
@@ -125,7 +125,7 @@ age = approximate_age(birth_year)
 
 profile = f"""
 ╔══════════════════════╗
-╟     Howdy {name}     
+╟     Howdy {name}
 ▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
 ╟ Hometown:  {hometown}
 ╟ Hobby:     {hobby}
