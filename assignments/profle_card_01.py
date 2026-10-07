@@ -77,6 +77,27 @@ print(f"{value_x} * {value_y} = {value_x * value_y}")
  exact spacing are a sample — do not fail a different layout.
  Required: the total is computed, not hard-coded as a literal.
 """
+
+# vars
+item = "eggs"
+price = 3.555
+quantity = 12
+
+# calculation
+total = price * quantity
+
+receipt =f"""
+------------------
+Item:     {item}
+Price:    ${price:.2f}
+Quantity: {quantity}
+Total:    ${total:.2f}
+------------------
+"""
+
+print(receipt)
+
+
 """
  Section 5 — Mini-Project: Profile Card —
  five inputs (name, hometown, hobby, fun fact, birth year),
