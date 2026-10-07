@@ -108,6 +108,35 @@ print(receipt)
  Formatting is subjective — accept any clean, readable card;
  only messy, unreadable output is a problem.
 """
+
+# name = input("What is your name?: ")
+# hometown = input("What is your hometown?: ")
+# hobby = input("What is your hobby?: ")
+# fun_fact = input("What is your fun fact?: ")
+# birth_year = int(input("What is your birth year?: "))
+
+# so my fingers don't bleed
+name = "ginger"
+hometown = "yamamasallama"
+hobby = "computer"
+fun_fact = "ginger fades"
+birth_year = 1904
+
+age = approximate_age(birth_year)
+
+profile = f"""
+╔══════════════════════╗
+╟     Howdy {name}     
+▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
+╟ Hometown:  {hometown}
+╟ Hobby:     {hobby}
+╟ Fun fact:  {fun_fact}
+╟ Age:       {age}
+╚══════════════════════╝
+"""
+
+print(profile)
+
 """
 Video reflection (URL2) — a required submission, but it is not part of the code
  and is not assessed here.
