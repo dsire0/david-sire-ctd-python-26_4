@@ -47,9 +47,8 @@ def approximate_age(year_of_birth):
     """
     this_year = datetime.date.today().year
     # print("DEBUG: ", this_year)
-    # I like showing how a parameter is used instead of directly referencing
-    that_year = year_of_birth
-    approx_year = this_year - that_year
+
+    approx_year = this_year - year_of_birth
     return approx_year
 
 
@@ -109,18 +108,18 @@ print(receipt)
  only messy, unreadable output is a problem.
 """
 
-# name = input("What is your name?: ")
-# hometown = input("What is your hometown?: ")
-# hobby = input("What is your hobby?: ")
-# fun_fact = input("What is your fun fact?: ")
-# birth_year = int(input("What is your birth year?: "))
+name = input("What is your name?: ")
+hometown = input("What is your hometown?: ")
+hobby = input("What is your hobby?: ")
+fun_fact = input("What is your fun fact?: ")
+birth_year = int(input("What is your birth year?: "))
 
 # so my fingers don't bleed
-name = "ginger"
-hometown = "yamamasallama"
-hobby = "computer"
-fun_fact = "ginger fades"
-birth_year = 1904
+# name = "ginger"
+# hometown = "yamamasallama"
+# hobby = "computer"
+# fun_fact = "ginger fades"
+# birth_year = 1904
 
 age = approximate_age(birth_year)
 
